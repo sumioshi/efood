@@ -28,8 +28,9 @@ export const HeaderStyle = styled.header`
 `
 export const Branding = styled.img`
   max-width: 125px;
+  margin-top: 22px;
   width: 100%;
-  height: 57.5px;
+  height: 55.5px;
   @media (max-width: ${breakpoints.iphone11}) {
     margin: 15px;
   }
